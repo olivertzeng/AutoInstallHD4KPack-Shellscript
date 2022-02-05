@@ -5,5 +5,5 @@ Super Mario 3D Land
 Super Mario Sunshine 
 Luigi's Mansion
 ## Installation
-chmod 777 run.sh
-./run.sh
+`chmod 777 run.sh`
+`./run.sh`
