@@ -4,6 +4,7 @@ You could choose:
 Super Mario 3D Land 
 Super Mario Sunshine 
 Luigi's Mansion
+HD and 4K packs by Henriko (https://github.com/HenrikoMagnifico)
 ## Installation
 `chmod 777 run.sh`
 `./run.sh`
