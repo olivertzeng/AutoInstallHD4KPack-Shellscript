@@ -89,4 +89,5 @@ else
 fi
 echo 'Installation Complete'
 alert 'Installation Complete'
+xdg-open https://www.patreon.com/henrikomagnifico
 exit
