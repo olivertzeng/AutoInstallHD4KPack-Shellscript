@@ -2,6 +2,7 @@
 # Author : olivertzeng
 pip install gdown
 sudo apt-get install unzip -yy 
+echo 'HD and 4K packs made by Henriko, remember to visite is Patreon! https://www.patreon.com/henrikomagnifico'
 echo 'What do you want to install?'
 echo '1, Super Mario 3D Land'
 echo '2, Super Mario Sunshine'
