@@ -16,7 +16,7 @@ if [ ans == 1 ]
 then 
 	if [ ans1 == 4 ]
 	then 
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=28rh&id=1tVQb66_B2x2IuTTo4SNpjm9nwpbWCGzw
+		wget https://download1980.mediafire.com/770xf72r4pfg/ebvc1d5op611www/Super+Mario+3D+Land+HD+1.1.0+%281080p%29.zip
 		unzip Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\).zip
 		cd Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\)/User/Load/Textures
 		cp -r -f 0004000000053F00 0004000000054000 /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -25,7 +25,7 @@ then
 		rm Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\)
 
 	else 
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=7KJe&id=1MvXNBY_10P60utCPyfZIjxS7bLKWkBet
+		wget https://download1336.mediafire.com/qvc5qq8pjmag/iiftec543g9pbs0/Super+Mario+3D+Land+HD+1.1.0+%284K%29.zip
 		unzip Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(4K\).zip 
 		cd Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(4K\)/User/Load/Textures
 		cp -r -f 0004000000053F00 0004000000054000 /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -37,7 +37,7 @@ elif [ ans == 2 ]
 then
 	if [ ans1 == 4 ]
 	then 
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=u1wZ&id=12Zn1hjcJ6lfITHPwLRCYnTUGJpgUCPq3
+		wget https://download1646.mediafire.com/9r01jgz7tr5g/b5zmfcrhf56y4i1/Super+Mario+Sunshine+4K+1.0.1+%281080p%29.zip
 		unzip Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\).zip
 		cd Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\)/User/Load/Textures
 		cp -r -f GMS /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -49,7 +49,7 @@ then
 		rm -f INSTRUCTIONS.url Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\).zip
 		
 	else 
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=85Co&id=11xpGaJa494agoSHTofAKu7LVzTWd4kfs
+		wget https://download1521.mediafire.com/4me4y15m9jlg/u6iteahm7n79uew/Super+Mario+Sunshine+4K+1.0.1+%284K%29.zip
 		unzip Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(4K\).zip 
 		cd Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(4K\)/User/Load/Textures
 		cp -r -f GMS /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -62,7 +62,7 @@ then
 else
 	if [ ans1 == 4 ]
 	then
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=-XSc&id=1YsLVBjMkwawzkStu4I0T6HUnT57IJibD
+		wget https://download1522.mediafire.com/vxsilwpt5skg/48kjqnefcs1okwv/Luigi%5C%27s+Mansion+4K+Texture+Pack+1.0.3+%281080p%29.zip
 		unzip Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip
 		cd Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\)/User/Load/Textures
 		cp -r -f GLM /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -74,7 +74,7 @@ else
 		rm -r -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\)
 		rm -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip	
 	else
-		gdown https://drive.google.com/u/0/uc?export=download&confirm=qOIL&id=1VOKSLQ52igkdFC8EPP2HT63f20MuD1iD
+		wget https://download1492.mediafire.com/eqofpb38g45g/4wbdl1yk1639iyo/Luigi%5C%27s+Mansion+4K+Texture+Pack+1.0.3+%284K%29.zip
 		unzip Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(4K\).zip
 		cd Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(4K\)/User/Load/Textures
 		cp -r -f GLM /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
