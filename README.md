@@ -6,7 +6,7 @@ Super Mario Sunshine
 Luigi's Mansion
 HD and 4K packs by Henriko (https://github.com/HenrikoMagnifico) 
 Visit his Patreon!(https://www.patreon.com/henrikomagnifico)
-(Only Works on Linux Retroarch)
+(Only Works with Linux Retroarch)
 ## Installation
 `chmod 777 run.sh`
 `./run.sh`
