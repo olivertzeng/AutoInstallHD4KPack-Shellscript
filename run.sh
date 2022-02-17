@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author : olivertzeng
+# Author : olivertzeng, cybercussion (https://unix.stackexchange.com/questions/46081/identifying-the-system-package-manager)
 packagesNeeded='unzip'
 if [ -x "$(command -v apk)" ];       then sudo apk add --no-cache $packagesNeeded
 elif [ -x "$(command -v apt-fast)" ]; then sudo apt-fast install -yy -f $packagesNeeded
