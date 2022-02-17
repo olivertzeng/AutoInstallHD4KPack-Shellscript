@@ -1,8 +1,13 @@
 #!/bin/bash
 # Author : olivertzeng
-pip install gdown
-sudo apt-get install unzip -yy 
-echo 'HD and 4K packs made by Henriko, remember to visite is Patreon! https://www.patreon.com/henrikomagnifico'
+packagesNeeded='unzip'
+if [ -x "$(command -v apk)" ];       then sudo apk add --no-cache $packagesNeeded
+elif [ -x "$(command -v apt-fast)" ]; then sudo apt-fast install -yy -f $packagesNeeded
+elif [ -x "$(command -v apt-get)" ]; then sudo apt-get install -yy -f $packagesNeeded
+elif [ -x "$(command -v dnf)" ];     then sudo dnf install $packagesNeeded
+elif [ -x "$(command -v zypper)" ];  then sudo zypper install $packagesNeeded
+else echo "FAILED TO INSTALL PACKAGE: Package manager not found. You must manually install: $packagesNeeded">&2; fi
+echo 'HD and 4K packs made by Henriko, remember to visite his Patreon! https://www.patreon.com/henrikomagnifico'
 echo 'What do you want to install?'
 echo '1, Super Mario 3D Land'
 echo '2, Super Mario Sunshine'
@@ -72,7 +77,7 @@ else
 		cp -f GMSE01.ini GMSP01.ini
 		cd ../../..
 		rm -r -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\)
-		rm -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip	
+		rm -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip
 	else
 		wget https://download1492.mediafire.com/eqofpb38g45g/4wbdl1yk1639iyo/Luigi%5C%27s+Mansion+4K+Texture+Pack+1.0.3+%284K%29.zip
 		unzip Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(4K\).zip
