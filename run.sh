@@ -21,7 +21,7 @@ if [ ans == 1 ]
 then 
 	if [ ans1 == 4 ]
 	then 
-		wget https://download1980.mediafire.com/770xf72r4pfg/ebvc1d5op611www/Super+Mario+3D+Land+HD+1.1.0+%281080p%29.zip
+		wget https://filetransfer.io/data-package/aMke4oMp/download
 		unzip Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\).zip
 		cd Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\)/User/Load/Textures
 		cp -r -f 0004000000053F00 0004000000054000 /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -30,7 +30,7 @@ then
 		rm Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(1080p\)
 
 	else 
-		wget https://download1336.mediafire.com/qvc5qq8pjmag/iiftec543g9pbs0/Super+Mario+3D+Land+HD+1.1.0+%284K%29.zip
+		wget https://filetransfer.io/data-package/xTPR2X4d/download
 		unzip Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(4K\).zip 
 		cd Super\ Mario\ 3D\ Land\ HD\ 1.1.0\ \(4K\)/User/Load/Textures
 		cp -r -f 0004000000053F00 0004000000054000 /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -42,7 +42,7 @@ elif [ ans == 2 ]
 then
 	if [ ans1 == 4 ]
 	then 
-		wget https://download1646.mediafire.com/9r01jgz7tr5g/b5zmfcrhf56y4i1/Super+Mario+Sunshine+4K+1.0.1+%281080p%29.zip
+		wget https://filetransfer.io/data-package/YhmTPKhU/download
 		unzip Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\).zip
 		cd Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\)/User/Load/Textures
 		cp -r -f GMS /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -54,7 +54,7 @@ then
 		rm -f INSTRUCTIONS.url Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(1080p\).zip
 		
 	else 
-		wget https://download1521.mediafire.com/4me4y15m9jlg/u6iteahm7n79uew/Super+Mario+Sunshine+4K+1.0.1+%284K%29.zip
+		wget https://filetransfer.io/data-package/LotlZCVT/download
 		unzip Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(4K\).zip 
 		cd Super\ Mario\ Sunshine\ 4K\ 1.0.1\ \(4K\)/User/Load/Textures
 		cp -r -f GMS /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -67,7 +67,7 @@ then
 else
 	if [ ans1 == 4 ]
 	then
-		wget https://download1522.mediafire.com/vxsilwpt5skg/48kjqnefcs1okwv/Luigi%5C%27s+Mansion+4K+Texture+Pack+1.0.3+%281080p%29.zip
+		wget https://filetransfer.io/data-package/GSo5kgaY/download
 		unzip Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip
 		cd Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\)/User/Load/Textures
 		cp -r -f GLM /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -79,7 +79,7 @@ else
 		rm -r -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\)
 		rm -f Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(1080p\).zip
 	else
-		wget https://download1492.mediafire.com/eqofpb38g45g/4wbdl1yk1639iyo/Luigi%5C%27s+Mansion+4K+Texture+Pack+1.0.3+%284K%29.zip
+		wget https://filetransfer.io/data-package/65puhxut/download
 		unzip Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(4K\).zip
 		cd Luigi\'s\ Mansion\ 4K\ Texture\ Pack\ 1.0.3\ \(4K\)/User/Load/Textures
 		cp -r -f GLM /home/$USER/.var/app/org.libretro.RetroArch/config/retroarch/saves/User/Load/Textures
@@ -93,6 +93,7 @@ else
 	fi
 fi
 echo 'Installation Complete'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alert 'Installation Complete'
 xdg-open https://www.patreon.com/henrikomagnifico
 exit
